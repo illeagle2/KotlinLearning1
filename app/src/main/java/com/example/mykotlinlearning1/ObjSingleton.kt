@@ -11,18 +11,19 @@ package com.example.mykotlinlearning1
 
 fun main() {
     //to create an object we must call the class
-    val obj = animal()
+    val obj = Animal()
 
-    //to create a singleton
-    val singleton = cat
+    //to create a singleton notice we do not use the () after calling the class
+    //we are not creating a new instance each time
+    val singleton = Cat
 
 }
 
 
-class animal{
+class Animal{
     val name = "animal"
 }
 
-object cat {
+object Cat {
     val name = "cat"
 }

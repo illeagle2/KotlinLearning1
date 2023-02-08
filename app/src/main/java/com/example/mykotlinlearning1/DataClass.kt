@@ -1,11 +1,11 @@
 package com.example.mykotlinlearning1
 
 
-/*
-*this is an example data class
-*data class builds a class that holds data
-*data can be passed to constructor or body
-*/
+/**
+* this is an example data class
+* data class builds a class that holds data
+* data can be passed to constructor or body
+**/
 
 data class DataClass(
     var name: String,
