@@ -7,7 +7,8 @@ package com.example.mykotlinlearning1
 
 fun main() {
     val input1 = "some random string @test challenge @okay"
-    val input2 = "@test is Laptop, @okay is Gone"
+    //val input2 = "@test is Laptop, @okay is Gone"
+    val input2 = mapOf("@test" to "Laptop", "@okay" to "Gone")
 
     //grab mapping from input2
     val testMap = "Laptop"
